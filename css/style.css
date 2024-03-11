@@ -23,6 +23,29 @@ body {
     border: 2px dashed black;
 }
 
+.mh-25 {
+    min-height: 25rem;
+}
+
+.mh-20 {
+    min-height: 20rem;
+}
+
+.mh-40 {
+    min-height: 40rem;
+}
+
+.mh-35 {
+    min-height: 35rem;
+}
+
+.fb-70 {
+    flex-basis: 70%;
+}
+
+.fb-30 {
+    flex-basis: 30%;
+}
 /****** CSS HEADER ******/
 .header {
     min-height: 5rem;
@@ -69,4 +92,27 @@ a {
 .content-jumbo {
     background-color: #EE82EE;
     min-height: 20rem;
+}
+
+/****** CSS MAIN ******/
+.bg-white {
+    background-color: #FFFFFF;
+    align-items: center;
+}
+
+.bg-gray {
+    background-color: #D3D3D3;
+    align-items: center;
+}
+
+.bg-azure {
+    background-color: #1E90FF;
+}
+
+.bg-rosa {
+    background-color: #FFC0CB;
+}
+
+.bg-green {
+    background-color: #228B22;
 }
