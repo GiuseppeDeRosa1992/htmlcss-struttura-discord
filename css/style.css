@@ -4,3 +4,69 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
+/****** CSS UTILS ******/
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.ta-right {
+    text-align: right;
+}
+
+.brd {
+    border: 2px dashed black;
+}
+
+/****** CSS HEADER ******/
+.header {
+    min-height: 5rem;
+    background-color: #ADD8E6;
+}
+
+.small-nav, .big-nav {
+    background-color: #DAA520;
+    height: 3rem;
+    margin: 1rem 0;
+}
+
+.small-nav {
+    width: 25%;
+}
+
+.big-nav {
+    width: 75%;
+}
+
+ul.flex {
+    justify-content: center;
+    list-style-type: none;
+}
+
+li {
+    padding: 0 0.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+#logo, #login {
+    padding: 1rem 0.2rem;
+}
+
+.jumbo {
+    background-color: #00008B;
+    min-height: 25rem;
+    align-items: center;
+}
+
+.content-jumbo {
+    background-color: #EE82EE;
+    min-height: 20rem;
+}
