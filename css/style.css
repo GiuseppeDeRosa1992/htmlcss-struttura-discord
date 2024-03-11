@@ -3,11 +3,12 @@ body {
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 /****** CSS UTILS ******/
 .container {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -15,8 +16,18 @@ body {
     display: flex;
 }
 
-.ta-right {
-    text-align: right;
+div.center {
+    align-items: center;
+}
+
+div.end {
+    justify-content: flex-end;
+}
+
+.logo,
+#login,
+.btn {
+    padding: 0.5rem 0.3rem;
 }
 
 .brd {
@@ -31,10 +42,6 @@ body {
     min-height: 20rem;
 }
 
-.mh-40 {
-    min-height: 40rem;
-}
-
 .mh-35 {
     min-height: 35rem;
 }
@@ -46,13 +53,19 @@ body {
 .fb-30 {
     flex-basis: 30%;
 }
+
+.padding {
+    padding: 0.5rem 0 1rem;
+}
+
 /****** CSS HEADER ******/
 .header {
     min-height: 5rem;
     background-color: #ADD8E6;
 }
 
-.small-nav, .big-nav {
+.small-nav,
+.big-nav {
     background-color: #DAA520;
     height: 3rem;
     margin: 1rem 0;
@@ -77,10 +90,6 @@ li {
 
 a {
     text-decoration: none;
-}
-
-#logo, #login {
-    padding: 1rem 0.2rem;
 }
 
 .jumbo {
@@ -115,4 +124,44 @@ a {
 
 .bg-green {
     background-color: #228B22;
+}
+
+/****** CSS FOOTER ******/
+
+.bg-black {
+    background-color: #23272A;
+}
+
+.bg-magenta {
+    background-color: #F08080;
+}
+
+.bg-aqua {
+    background-color: #20B2AA;
+}
+
+.brd-white {
+    border: 2px dashed white;
+}
+
+div.brd-white {
+    flex-basis: calc(100% / 4);
+}
+
+.bg-aquamarine {
+    background-color: #7FFFD4;
+    margin-top: 2.5rem;
+}
+
+.mh-5 {
+    min-height: 5rem;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+footer .logo, 
+footer .btn {
+    background-color: #FFB6C1;
 }
